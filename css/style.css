@@ -115,7 +115,6 @@ body {
   width: 100%;
   clear: both;
 }
-
 .dignity-title {
   display: block;
   margin: 0 0 24px 0;
@@ -123,7 +122,8 @@ body {
   font-size: 30px;
   font-family: "Arial";
   color: rgb(68, 81, 97);
-  line-height: 1.2;
+  line-height: 36px;
+  font-weight: 400;
 }
 .dignity-list {
   width: 540px;
@@ -249,6 +249,7 @@ min-height: 100px;
     font-family: "Arial";
     color: rgb(68, 81, 97);
     line-height: 36px;
+    font-weight: 400;
 }
 .reviews-list {
     float: left;
@@ -377,4 +378,139 @@ min-height: 100px;
     margin: 29px 0 0 45px;
     background-color: #445161;
     border-radius: 5px;
+}
+/* ----------------------Contacts---------------------- */
+.main-footer {
+    width: 100%;
+    min-height: 500px;
+    padding: 50px;
+    box-sizing: border-box;
+    background-color: #445161;
+}
+.main-footer-title {
+    display: block;
+    padding: 0 0 10px 0;
+    margin: 0;
+    text-align: center;
+    font-size: 30px;
+    font-family: "Arial";
+    color: #fff;
+    line-height: 36px;
+}
+.main-footer-item {
+    padding: 0;
+    margin: 0;
+    float: left;
+}
+.form {
+    padding: 0 0 0 200px;
+    margin: 0;
+}
+.p-form {
+    margin: 0;
+    padding: 10px 0;
+}
+.txt {
+    width: 500px;
+    height: 40px;
+    padding: 0 0 0 10px;
+    color: #445162;
+    font-size: 16px;
+    font-family: "Arial"; 
+    line-height: 24px;
+    border-radius: 5px;
+}
+.txtarea {
+    height: 170px;
+    max-height: 200px;
+    max-width: 500px;
+}
+.submit-form {
+    width: 140px;
+    height: 40px;
+    margin: 0 0 0 180px;
+    padding: 0;
+    color: #fff;
+    border-radius: 5px;
+}
+.main-footer-item1 {
+    padding: 0;
+    margin: 10px 5px 10px 45px;
+    float: left;
+    width: 300px;
+}
+.p-main-footer {
+   margin: 0 0 15px 0;
+   padding: 0;
+}
+.s-main-footer {
+   color: #fafafa;
+   font-size: 24px;
+   font-family: "Arial"; 
+   line-height: 24px;
+   font-weight: 400;
+}
+.fa-skype {
+    content: "\f17e"; /* добавляем иконку skype */
+    font-family: FontAwesome;
+    color: white;
+    margin: 0;
+}
+.fa-phone {
+    content: "\f095"; /* добавляем иконку phone */
+    font-family: "Arial"; 
+    color: white;
+    margin: 0;
+}
+.icon-main-footer {
+    margin: 40px 0 0 0;
+}
+.fa-twitter {
+    content: "\f099"; /* добавляем иконку twitter */
+    color: #445161;
+    background-color: white;
+    border-radius: 25px;
+    padding: 5px 7px;
+    margin: 0 5px 0 0;
+}
+.fa-facebook {
+    content: "\f09a"; /* добавляем иконку facebook */
+    color: #445161;
+    background-color: white;
+    border-radius: 25px;
+    padding: 5px 12px;
+    margin: 0 5px 0 0;
+}
+.fa-linkedin {
+    content: "\f0e1"; /* добавляем иконку linkedin */
+    color: #445161;
+    background-color: white;
+    border-radius: 25px;
+    padding: 5px 7px;
+    margin: 0 5px 0 0;
+}
+.fa-google {
+    content: "\f1a0"; /* добавляем иконку google */
+    color: #445161;
+    background-color: white;
+    border-radius: 25px;
+    padding: 5px 7px;
+    margin: 0 5px 0 0;
+}
+.fa-youtube {
+    content: "\f167"; /* добавляем иконку youtube */
+    color: #445161;
+    background-color: white;
+    border-radius: 25px;
+    padding: 5px 7px;
+    margin: 0;
+}
+.copyright-title {
+    display: block;
+    margin: 5px 0 0 0;
+    text-align: center;
+    font-size: 14px;
+    font-family: "Arial";
+    color: rgb(68, 81, 97);
+    line-height: 36px;
 }
